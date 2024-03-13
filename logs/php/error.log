@@ -1,0 +1,482 @@
+[03-Mar-2024 09:54:37 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[03-Mar-2024 10:10:02 UTC] PHP Parse error:  syntax error, unexpected identifier "myFirstFuntion" in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-content\themes\hourharvest-theme\index.php on line 2
+[03-Mar-2024 10:10:31 UTC] PHP Parse error:  syntax error, unexpected identifier "myFirstFuntion" in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-content\themes\hourharvest-theme\index.php on line 2
+[03-Mar-2024 10:10:37 UTC] PHP Parse error:  syntax error, unexpected identifier "myFirstFuntion" in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-content\themes\hourharvest-theme\index.php on line 2
+[03-Mar-2024 10:16:23 UTC] PHP Parse error:  syntax error, unexpected token "}", expecting "," or ";" in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-content\themes\hourharvest-theme\index.php on line 4
+[05-Mar-2024 13:18:25 UTC] PHP Parse error:  Unclosed '{' on line 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-content\themes\hourharvest-theme\index.php on line 11
+[05-Mar-2024 13:52:13 UTC] PHP Fatal error:  Uncaught ArgumentCountError: get_headers() expects at least 1 argument, 0 given in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-content\themes\hourharvest-theme\single.php:3
+Stack trace:
+#0 C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-content\themes\hourharvest-theme\single.php(3): get_headers()
+#1 C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\vijay\\...')
+#2 C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-blog-header.php(19): require_once('C:\\Users\\vijay\\...')
+#3 C:\Users\vijay\Local Sites\hour-harvest\app\public\index.php(17): require('C:\\Users\\vijay\\...')
+#4 {main}
+  thrown in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-content\themes\hourharvest-theme\single.php on line 3
+[05-Mar-2024 15:15:49 UTC] PHP Parse error:  syntax error, unexpected identifier "wp_enqueue_style" in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-content\themes\hourharvest-theme\functions.php on line 4
+[05-Mar-2024 15:15:49 UTC] PHP Parse error:  syntax error, unexpected identifier "wp_enqueue_style" in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-content\themes\hourharvest-theme\functions.php on line 4
+[06-Mar-2024 10:37:56 UTC] Cron reschedule event error for hook: wp_privacy_delete_old_export_files, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"hourly","args":[],"interval":3600}
+[06-Mar-2024 13:05:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function language_attribute() in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-content\themes\hourharvest-theme\header.php:2
+Stack trace:
+#0 C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-includes\template.php(790): require_once()
+#1 C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-includes\template.php(725): load_template('C:\\Users\\vijay\\...', true, Array)
+#2 C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-content\themes\hourharvest-theme\index.php(1): get_header()
+#4 C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\vijay\\...')
+#5 C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-blog-header.php(19): require_once('C:\\Users\\vijay\\...')
+#6 C:\Users\vijay\Local Sites\hour-harvest\app\public\index.php(17): require('C:\\Users\\vijay\\...')
+#7 {main}
+  thrown in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-content\themes\hourharvest-theme\header.php on line 2
+[07-Mar-2024 01:33:47 UTC] PHP Parse error:  syntax error, unexpected token "<" in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-content\themes\hourharvest-theme\functions.php on line 12
+[07-Mar-2024 01:33:47 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 367
+[07-Mar-2024 01:33:47 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 368
+[07-Mar-2024 01:33:57 UTC] PHP Parse error:  syntax error, unexpected token "<" in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-content\themes\hourharvest-theme\functions.php on line 12
+[07-Mar-2024 01:46:28 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\translation-install.php on line 68
+[07-Mar-2024 06:58:13 UTC] PHP Parse error:  syntax error, unexpected token "<" in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-content\themes\hourharvest-theme\page.php on line 26
+[07-Mar-2024 06:58:41 UTC] PHP Parse error:  Unclosed '{' on line 5 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-content\themes\hourharvest-theme\page.php on line 51
+[09-Mar-2024 08:23:14 UTC] PHP Parse error:  syntax error, unexpected single-quoted string "all_items", expecting ")" in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-content\mu-plugins\hourharvest-post-types.php on line 11
+[09-Mar-2024 08:23:16 UTC] PHP Parse error:  syntax error, unexpected single-quoted string "all_items", expecting ")" in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-content\mu-plugins\hourharvest-post-types.php on line 11
+[09-Mar-2024 08:23:16 UTC] PHP Parse error:  syntax error, unexpected single-quoted string "all_items", expecting ")" in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-content\mu-plugins\hourharvest-post-types.php on line 11
+[09-Mar-2024 08:23:38 UTC] PHP Parse error:  Unmatched '}' in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-content\mu-plugins\hourharvest-post-types.php on line 16
+[09-Mar-2024 08:23:38 UTC] PHP Parse error:  Unmatched '}' in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-content\mu-plugins\hourharvest-post-types.php on line 16
+[09-Mar-2024 08:24:53 UTC] PHP Parse error:  Unmatched '}' in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-content\mu-plugins\hourharvest-post-types.php on line 17
+[09-Mar-2024 08:24:54 UTC] PHP Parse error:  Unmatched '}' in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-content\mu-plugins\hourharvest-post-types.php on line 17
+[09-Mar-2024 08:24:56 UTC] PHP Parse error:  Unmatched '}' in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-content\mu-plugins\hourharvest-post-types.php on line 17
+[09-Mar-2024 08:24:56 UTC] PHP Parse error:  Unmatched '}' in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-content\mu-plugins\hourharvest-post-types.php on line 17
+[09-Mar-2024 08:24:56 UTC] PHP Parse error:  Unmatched '}' in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-content\mu-plugins\hourharvest-post-types.php on line 17
+[09-Mar-2024 08:24:56 UTC] PHP Parse error:  Unmatched '}' in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-content\mu-plugins\hourharvest-post-types.php on line 17
+[09-Mar-2024 08:24:56 UTC] PHP Parse error:  Unmatched '}' in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-content\mu-plugins\hourharvest-post-types.php on line 17
+[09-Mar-2024 08:24:56 UTC] PHP Parse error:  Unmatched '}' in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-content\mu-plugins\hourharvest-post-types.php on line 17
+[09-Mar-2024 08:32:22 UTC] PHP Parse error:  syntax error, unexpected single-quoted string "public", expecting ")" in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-content\mu-plugins\hourharvest-post-types.php on line 8
+[09-Mar-2024 08:32:24 UTC] PHP Parse error:  syntax error, unexpected single-quoted string "public", expecting ")" in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-content\mu-plugins\hourharvest-post-types.php on line 8
+[09-Mar-2024 08:32:24 UTC] PHP Parse error:  syntax error, unexpected single-quoted string "public", expecting ")" in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-content\mu-plugins\hourharvest-post-types.php on line 8
+[09-Mar-2024 09:23:42 UTC] PHP Parse error:  syntax error, unexpected token ";", expecting ")" in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-content\mu-plugins\hourharvest-post-types.php on line 14
+[09-Mar-2024 09:23:42 UTC] PHP Parse error:  syntax error, unexpected token ";", expecting ")" in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-content\mu-plugins\hourharvest-post-types.php on line 14
+[09-Mar-2024 09:24:43 UTC] PHP Parse error:  syntax error, unexpected token ";", expecting ")" in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-content\mu-plugins\hourharvest-post-types.php on line 15
+[09-Mar-2024 09:24:43 UTC] PHP Parse error:  syntax error, unexpected token ";", expecting ")" in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-content\mu-plugins\hourharvest-post-types.php on line 15
+[09-Mar-2024 09:24:45 UTC] PHP Parse error:  syntax error, unexpected token ";", expecting ")" in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-content\mu-plugins\hourharvest-post-types.php on line 15
+[09-Mar-2024 09:24:45 UTC] PHP Parse error:  syntax error, unexpected token ";", expecting ")" in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-content\mu-plugins\hourharvest-post-types.php on line 15
+[09-Mar-2024 09:24:45 UTC] PHP Parse error:  syntax error, unexpected token ";", expecting ")" in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-content\mu-plugins\hourharvest-post-types.php on line 15
+[09-Mar-2024 09:24:45 UTC] PHP Parse error:  syntax error, unexpected token ";", expecting ")" in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-content\mu-plugins\hourharvest-post-types.php on line 15
+[09-Mar-2024 09:24:46 UTC] PHP Parse error:  syntax error, unexpected token ";", expecting ")" in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-content\mu-plugins\hourharvest-post-types.php on line 15
+[09-Mar-2024 09:24:46 UTC] PHP Parse error:  syntax error, unexpected token ";", expecting ")" in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-content\mu-plugins\hourharvest-post-types.php on line 15
+[09-Mar-2024 09:49:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_current_screen() in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-content\mu-plugins\hourharvest-post-types.php:32
+Stack trace:
+#0 C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-includes\class-wp-hook.php(326): change_add_new_post_button_text('The name is how...')
+#1 C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('The name is how...', Array)
+#2 C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-includes\l10n.php(197): apply_filters('gettext', 'The name is how...', 'The name is how...', 'default')
+#3 C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-includes\l10n.php(297): translate('The name is how...', 'default')
+#4 C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-includes\class-wp-taxonomy.php(607): __('The name is how...')
+#5 C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-includes\taxonomy.php(698): WP_Taxonomy::get_default_labels()
+#6 C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-includes\class-wp-taxonomy.php(486): get_taxonomy_labels(Object(WP_Taxonomy))
+#7 C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-includes\class-wp-taxonomy.php(290): WP_Taxonomy->set_props('post', Array)
+#8 C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-includes\taxonomy.php(514): WP_Taxonomy->__construct('category', 'post', Array)
+#9 C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-includes\taxonomy.php(82): register_taxonomy('category', 'post', Array)
+#10 C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-settings.php(455): create_initial_taxonomies()
+#11 C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-config.php(103): require_once('C:\\Users\\vijay\\...')
+#12 C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-load.php(50): require_once('C:\\Users\\vijay\\...')
+#13 C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\admin-ajax.php(22): require_once('C:\\Users\\vijay\\...')
+#14 {main}
+  thrown in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-content\mu-plugins\hourharvest-post-types.php on line 32
+[09-Mar-2024 09:49:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_current_screen() in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-content\mu-plugins\hourharvest-post-types.php:32
+Stack trace:
+#0 C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-includes\class-wp-hook.php(326): change_add_new_post_button_text('There has been ...')
+#1 C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('There has been ...', Array)
+#2 C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-includes\l10n.php(197): apply_filters('gettext', 'There has been ...', 'There has been ...', 'default')
+#3 C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-includes\l10n.php(297): translate('There has been ...', 'default')
+#4 C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-includes\class-wp-fatal-error-handler.php(194): __('There has been ...')
+#5 C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-includes\class-wp-fatal-error-handler.php(154): WP_Fatal_Error_Handler->display_default_error_template(Array, false)
+#6 C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-includes\class-wp-fatal-error-handler.php(58): WP_Fatal_Error_Handler->display_error_template(Array, false)
+#7 [internal function]: WP_Fatal_Error_Handler->handle()
+#8 {main}
+  thrown in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-content\mu-plugins\hourharvest-post-types.php on line 32
+[09-Mar-2024 09:49:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_current_screen() in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-content\mu-plugins\hourharvest-post-types.php:32
+Stack trace:
+#0 C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-includes\class-wp-hook.php(326): change_add_new_post_button_text('The name is how...')
+#1 C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('The name is how...', Array)
+#2 C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-includes\l10n.php(197): apply_filters('gettext', 'The name is how...', 'The name is how...', 'default')
+#3 C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-includes\l10n.php(297): translate('The name is how...', 'default')
+#4 C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-includes\class-wp-taxonomy.php(607): __('The name is how...')
+#5 C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-includes\taxonomy.php(698): WP_Taxonomy::get_default_labels()
+#6 C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-includes\class-wp-taxonomy.php(486): get_taxonomy_labels(Object(WP_Taxonomy))
+#7 C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-includes\class-wp-taxonomy.php(290): WP_Taxonomy->set_props('post', Array)
+#8 C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-includes\taxonomy.php(514): WP_Taxonomy->__construct('category', 'post', Array)
+#9 C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-includes\taxonomy.php(82): register_taxonomy('category', 'post', Array)
+#10 C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-settings.php(455): create_initial_taxonomies()
+#11 C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-config.php(103): require_once('C:\\Users\\vijay\\...')
+#12 C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-load.php(50): require_once('C:\\Users\\vijay\\...')
+#13 C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\vijay\\...')
+#14 C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\edit.php(10): require_once('C:\\Users\\vijay\\...')
+#15 {main}
+  thrown in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-content\mu-plugins\hourharvest-post-types.php on line 32
+[09-Mar-2024 09:49:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_current_screen() in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-content\mu-plugins\hourharvest-post-types.php:32
+Stack trace:
+#0 C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-includes\class-wp-hook.php(326): change_add_new_post_button_text('There has been ...')
+#1 C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('There has been ...', Array)
+#2 C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-includes\l10n.php(197): apply_filters('gettext', 'There has been ...', 'There has been ...', 'default')
+#3 C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-includes\l10n.php(297): translate('There has been ...', 'default')
+#4 C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-includes\class-wp-fatal-error-handler.php(194): __('There has been ...')
+#5 C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-includes\class-wp-fatal-error-handler.php(154): WP_Fatal_Error_Handler->display_default_error_template(Array, false)
+#6 C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-includes\class-wp-fatal-error-handler.php(58): WP_Fatal_Error_Handler->display_error_template(Array, false)
+#7 [internal function]: WP_Fatal_Error_Handler->handle()
+#8 {main}
+  thrown in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-content\mu-plugins\hourharvest-post-types.php on line 32
+[09-Mar-2024 09:49:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_current_screen() in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-content\mu-plugins\hourharvest-post-types.php:32
+Stack trace:
+#0 C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-includes\class-wp-hook.php(326): change_add_new_post_button_text('The name is how...')
+#1 C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('The name is how...', Array)
+#2 C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-includes\l10n.php(197): apply_filters('gettext', 'The name is how...', 'The name is how...', 'default')
+#3 C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-includes\l10n.php(297): translate('The name is how...', 'default')
+#4 C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-includes\class-wp-taxonomy.php(607): __('The name is how...')
+#5 C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-includes\taxonomy.php(698): WP_Taxonomy::get_default_labels()
+#6 C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-includes\class-wp-taxonomy.php(486): get_taxonomy_labels(Object(WP_Taxonomy))
+#7 C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-includes\class-wp-taxonomy.php(290): WP_Taxonomy->set_props('post', Array)
+#8 C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-includes\taxonomy.php(514): WP_Taxonomy->__construct('category', 'post', Array)
+#9 C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-includes\taxonomy.php(82): register_taxonomy('category', 'post', Array)
+#10 C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-settings.php(455): create_initial_taxonomies()
+#11 C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-config.php(103): require_once('C:\\Users\\vijay\\...')
+#12 C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-load.php(50): require_once('C:\\Users\\vijay\\...')
+#13 C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-blog-header.php(13): require_once('C:\\Users\\vijay\\...')
+#14 C:\Users\vijay\Local Sites\hour-harvest\app\public\index.php(17): require('C:\\Users\\vijay\\...')
+#15 {main}
+  thrown in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-content\mu-plugins\hourharvest-post-types.php on line 32
+[09-Mar-2024 09:49:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_current_screen() in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-content\mu-plugins\hourharvest-post-types.php:32
+Stack trace:
+#0 C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-includes\class-wp-hook.php(326): change_add_new_post_button_text('There has been ...')
+#1 C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('There has been ...', Array)
+#2 C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-includes\l10n.php(197): apply_filters('gettext', 'There has been ...', 'There has been ...', 'default')
+#3 C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-includes\l10n.php(297): translate('There has been ...', 'default')
+#4 C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-includes\class-wp-fatal-error-handler.php(194): __('There has been ...')
+#5 C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-includes\class-wp-fatal-error-handler.php(154): WP_Fatal_Error_Handler->display_default_error_template(Array, false)
+#6 C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-includes\class-wp-fatal-error-handler.php(58): WP_Fatal_Error_Handler->display_error_template(Array, false)
+#7 [internal function]: WP_Fatal_Error_Handler->handle()
+#8 {main}
+  thrown in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-content\mu-plugins\hourharvest-post-types.php on line 32
+[09-Mar-2024 10:21:14 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\plugin.php on line 1941
+[09-Mar-2024 10:21:14 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\plugin.php on line 1946
+[09-Mar-2024 10:21:14 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\menu.php on line 181
+[09-Mar-2024 10:21:14 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\plugin.php on line 2004
+[09-Mar-2024 10:21:14 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\plugin.php on line 2015
+[09-Mar-2024 10:21:14 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\menu-header.php on line 155
+[09-Mar-2024 10:21:14 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\menu-header.php on line 156
+[09-Mar-2024 10:21:14 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\menu-header.php on line 164
+[09-Mar-2024 10:21:14 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\menu-header.php on line 171
+[09-Mar-2024 10:21:14 UTC] PHP Warning:  Undefined array key 1 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\menu-header.php on line 202
+[09-Mar-2024 10:21:59 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\plugin.php on line 1941
+[09-Mar-2024 10:21:59 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\plugin.php on line 1946
+[09-Mar-2024 10:21:59 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\menu.php on line 181
+[09-Mar-2024 10:21:59 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\plugin.php on line 2004
+[09-Mar-2024 10:21:59 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\plugin.php on line 2015
+[09-Mar-2024 10:21:59 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\menu-header.php on line 155
+[09-Mar-2024 10:21:59 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\menu-header.php on line 156
+[09-Mar-2024 10:21:59 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\menu-header.php on line 164
+[09-Mar-2024 10:21:59 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\menu-header.php on line 171
+[09-Mar-2024 10:21:59 UTC] PHP Warning:  Undefined array key 1 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\menu-header.php on line 202
+[09-Mar-2024 10:25:49 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\plugin.php on line 1941
+[09-Mar-2024 10:25:49 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\plugin.php on line 1946
+[09-Mar-2024 10:25:49 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\menu.php on line 181
+[09-Mar-2024 10:25:49 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\plugin.php on line 2004
+[09-Mar-2024 10:25:49 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\plugin.php on line 2015
+[09-Mar-2024 10:25:49 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\menu-header.php on line 155
+[09-Mar-2024 10:25:49 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\menu-header.php on line 156
+[09-Mar-2024 10:25:49 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\menu-header.php on line 164
+[09-Mar-2024 10:25:49 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\menu-header.php on line 171
+[09-Mar-2024 10:25:49 UTC] PHP Warning:  Undefined array key 1 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\menu-header.php on line 202
+[09-Mar-2024 10:26:22 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\plugin.php on line 1941
+[09-Mar-2024 10:26:22 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\plugin.php on line 1946
+[09-Mar-2024 10:26:22 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\menu.php on line 181
+[09-Mar-2024 10:26:22 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\plugin.php on line 2004
+[09-Mar-2024 10:26:22 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\plugin.php on line 2015
+[09-Mar-2024 10:26:22 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\menu-header.php on line 155
+[09-Mar-2024 10:26:22 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\menu-header.php on line 156
+[09-Mar-2024 10:26:22 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\menu-header.php on line 164
+[09-Mar-2024 10:26:22 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\menu-header.php on line 171
+[09-Mar-2024 10:26:22 UTC] PHP Warning:  Undefined array key 1 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\menu-header.php on line 202
+[09-Mar-2024 10:44:43 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\plugin.php on line 1941
+[09-Mar-2024 10:44:43 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\plugin.php on line 1946
+[09-Mar-2024 10:44:43 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\menu.php on line 181
+[09-Mar-2024 10:44:43 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\plugin.php on line 2004
+[09-Mar-2024 10:44:43 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\plugin.php on line 2015
+[09-Mar-2024 10:44:43 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\menu-header.php on line 155
+[09-Mar-2024 10:44:43 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\menu-header.php on line 156
+[09-Mar-2024 10:44:43 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\menu-header.php on line 164
+[09-Mar-2024 10:44:43 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\menu-header.php on line 171
+[09-Mar-2024 10:44:43 UTC] PHP Warning:  Undefined array key 1 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\menu-header.php on line 202
+[09-Mar-2024 10:45:03 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\plugin.php on line 1941
+[09-Mar-2024 10:45:03 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\plugin.php on line 1946
+[09-Mar-2024 10:45:03 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\menu.php on line 181
+[09-Mar-2024 10:45:03 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\plugin.php on line 2004
+[09-Mar-2024 10:45:03 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\plugin.php on line 2015
+[09-Mar-2024 10:45:03 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\menu-header.php on line 155
+[09-Mar-2024 10:45:03 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\menu-header.php on line 156
+[09-Mar-2024 10:45:03 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\menu-header.php on line 164
+[09-Mar-2024 10:45:03 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\menu-header.php on line 171
+[09-Mar-2024 10:45:03 UTC] PHP Warning:  Undefined array key 1 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\menu-header.php on line 202
+[09-Mar-2024 10:45:25 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\plugin.php on line 1941
+[09-Mar-2024 10:45:25 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\plugin.php on line 1946
+[09-Mar-2024 10:45:25 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\menu.php on line 181
+[09-Mar-2024 10:45:25 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\plugin.php on line 1941
+[09-Mar-2024 10:45:25 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\plugin.php on line 1946
+[09-Mar-2024 10:45:25 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\menu.php on line 181
+[09-Mar-2024 10:45:25 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\plugin.php on line 1941
+[09-Mar-2024 10:45:25 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\plugin.php on line 1946
+[09-Mar-2024 10:45:25 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\plugin.php on line 1941
+[09-Mar-2024 10:45:25 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\plugin.php on line 1946
+[09-Mar-2024 10:45:25 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\plugin.php on line 1941
+[09-Mar-2024 10:45:25 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\plugin.php on line 1946
+[09-Mar-2024 10:45:25 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\plugin.php on line 1941
+[09-Mar-2024 10:45:25 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\plugin.php on line 1946
+[09-Mar-2024 10:45:25 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\plugin.php on line 2004
+[09-Mar-2024 10:45:25 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\plugin.php on line 2015
+[09-Mar-2024 10:45:25 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\plugin.php on line 1941
+[09-Mar-2024 10:45:25 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\plugin.php on line 1946
+[09-Mar-2024 10:45:25 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\plugin.php on line 1941
+[09-Mar-2024 10:45:25 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\plugin.php on line 1946
+[09-Mar-2024 10:45:25 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\menu-header.php on line 155
+[09-Mar-2024 10:45:25 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\menu-header.php on line 156
+[09-Mar-2024 10:45:25 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\menu-header.php on line 164
+[09-Mar-2024 10:45:25 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\menu-header.php on line 171
+[09-Mar-2024 10:45:25 UTC] PHP Warning:  Undefined array key 1 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\menu-header.php on line 202
+[09-Mar-2024 10:45:30 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\plugin.php on line 1941
+[09-Mar-2024 10:45:30 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\plugin.php on line 1946
+[09-Mar-2024 10:45:30 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\menu.php on line 181
+[09-Mar-2024 10:45:30 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\plugin.php on line 2004
+[09-Mar-2024 10:45:30 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\plugin.php on line 2015
+[09-Mar-2024 10:45:30 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\menu-header.php on line 155
+[09-Mar-2024 10:45:30 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\menu-header.php on line 156
+[09-Mar-2024 10:45:30 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\menu-header.php on line 164
+[09-Mar-2024 10:45:30 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\menu-header.php on line 171
+[09-Mar-2024 10:45:30 UTC] PHP Warning:  Undefined array key 1 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\menu-header.php on line 202
+[09-Mar-2024 10:45:47 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\plugin.php on line 1941
+[09-Mar-2024 10:45:47 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\plugin.php on line 1946
+[09-Mar-2024 10:45:47 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\menu.php on line 181
+[09-Mar-2024 10:45:47 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\plugin.php on line 1941
+[09-Mar-2024 10:45:47 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\plugin.php on line 1946
+[09-Mar-2024 10:45:47 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\menu.php on line 181
+[09-Mar-2024 10:45:47 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\plugin.php on line 1941
+[09-Mar-2024 10:45:47 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\plugin.php on line 1946
+[09-Mar-2024 10:45:47 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\plugin.php on line 1941
+[09-Mar-2024 10:45:47 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\plugin.php on line 1946
+[09-Mar-2024 10:45:47 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\plugin.php on line 1941
+[09-Mar-2024 10:45:47 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\plugin.php on line 1946
+[09-Mar-2024 10:45:47 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\plugin.php on line 1941
+[09-Mar-2024 10:45:47 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\plugin.php on line 1946
+[09-Mar-2024 10:45:47 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\plugin.php on line 2004
+[09-Mar-2024 10:45:47 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\plugin.php on line 2015
+[09-Mar-2024 10:45:47 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\plugin.php on line 1941
+[09-Mar-2024 10:45:47 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\plugin.php on line 1946
+[09-Mar-2024 10:45:47 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\plugin.php on line 1941
+[09-Mar-2024 10:45:47 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\plugin.php on line 1946
+[09-Mar-2024 10:45:47 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\menu-header.php on line 155
+[09-Mar-2024 10:45:47 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\menu-header.php on line 156
+[09-Mar-2024 10:45:47 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\menu-header.php on line 164
+[09-Mar-2024 10:45:47 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\menu-header.php on line 171
+[09-Mar-2024 10:45:47 UTC] PHP Warning:  Undefined array key 1 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\menu-header.php on line 202
+[09-Mar-2024 10:45:50 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\plugin.php on line 1941
+[09-Mar-2024 10:45:50 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\plugin.php on line 1946
+[09-Mar-2024 10:45:50 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\menu.php on line 181
+[09-Mar-2024 10:45:50 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\plugin.php on line 1941
+[09-Mar-2024 10:45:50 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\plugin.php on line 1946
+[09-Mar-2024 10:45:50 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\plugin.php on line 1941
+[09-Mar-2024 10:45:50 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\plugin.php on line 1946
+[09-Mar-2024 10:45:50 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\plugin.php on line 1941
+[09-Mar-2024 10:45:50 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\plugin.php on line 1946
+[09-Mar-2024 10:45:50 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\plugin.php on line 1941
+[09-Mar-2024 10:45:50 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\plugin.php on line 1946
+[09-Mar-2024 10:45:50 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\plugin.php on line 2004
+[09-Mar-2024 10:45:50 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\plugin.php on line 2015
+[09-Mar-2024 10:45:50 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\plugin.php on line 1941
+[09-Mar-2024 10:45:50 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\plugin.php on line 1946
+[09-Mar-2024 10:45:50 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\plugin.php on line 1941
+[09-Mar-2024 10:45:50 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\plugin.php on line 1946
+[09-Mar-2024 10:45:50 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\menu-header.php on line 155
+[09-Mar-2024 10:45:50 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\menu-header.php on line 156
+[09-Mar-2024 10:45:50 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\menu-header.php on line 164
+[09-Mar-2024 10:45:50 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\menu-header.php on line 171
+[09-Mar-2024 10:45:50 UTC] PHP Warning:  Undefined array key 1 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\menu-header.php on line 202
+[09-Mar-2024 10:45:53 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\menu.php on line 181
+[09-Mar-2024 10:45:53 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\menu-header.php on line 155
+[09-Mar-2024 10:45:53 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\menu-header.php on line 156
+[09-Mar-2024 10:45:53 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\menu-header.php on line 164
+[09-Mar-2024 10:45:53 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\menu-header.php on line 171
+[09-Mar-2024 10:45:53 UTC] PHP Warning:  Undefined array key 1 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\menu-header.php on line 202
+[09-Mar-2024 10:46:29 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\menu.php on line 181
+[09-Mar-2024 10:46:29 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\menu-header.php on line 155
+[09-Mar-2024 10:46:29 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\menu-header.php on line 156
+[09-Mar-2024 10:46:29 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\menu-header.php on line 164
+[09-Mar-2024 10:46:29 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\menu-header.php on line 171
+[09-Mar-2024 10:46:29 UTC] PHP Warning:  Undefined array key 1 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\menu-header.php on line 202
+[09-Mar-2024 10:46:34 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\menu.php on line 181
+[09-Mar-2024 10:46:34 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\menu-header.php on line 155
+[09-Mar-2024 10:46:34 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\menu-header.php on line 156
+[09-Mar-2024 10:46:34 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\menu-header.php on line 164
+[09-Mar-2024 10:46:34 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\menu-header.php on line 171
+[09-Mar-2024 10:46:34 UTC] PHP Warning:  Undefined array key 1 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\menu-header.php on line 202
+[09-Mar-2024 10:51:53 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\menu.php on line 181
+[09-Mar-2024 10:51:53 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\plugin.php on line 1941
+[09-Mar-2024 10:51:53 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\plugin.php on line 1941
+[09-Mar-2024 10:51:53 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\plugin.php on line 1941
+[09-Mar-2024 10:51:53 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\menu-header.php on line 155
+[09-Mar-2024 10:51:53 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\menu-header.php on line 156
+[09-Mar-2024 10:51:53 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\menu-header.php on line 164
+[09-Mar-2024 10:51:53 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\menu-header.php on line 171
+[09-Mar-2024 10:51:53 UTC] PHP Warning:  Undefined array key 1 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\menu-header.php on line 202
+[09-Mar-2024 10:51:53 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\plugin.php on line 1941
+[09-Mar-2024 10:52:27 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\menu.php on line 181
+[09-Mar-2024 10:52:27 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\plugin.php on line 1941
+[09-Mar-2024 10:52:27 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\plugin.php on line 1941
+[09-Mar-2024 10:52:27 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\plugin.php on line 1941
+[09-Mar-2024 10:52:27 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\menu-header.php on line 155
+[09-Mar-2024 10:52:27 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\menu-header.php on line 156
+[09-Mar-2024 10:52:27 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\menu-header.php on line 164
+[09-Mar-2024 10:52:27 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\menu-header.php on line 171
+[09-Mar-2024 10:52:27 UTC] PHP Warning:  Undefined array key 1 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\menu-header.php on line 202
+[09-Mar-2024 10:52:27 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\plugin.php on line 1941
+[09-Mar-2024 10:53:35 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\menu.php on line 181
+[09-Mar-2024 10:53:35 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\plugin.php on line 1941
+[09-Mar-2024 10:53:35 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\plugin.php on line 1941
+[09-Mar-2024 10:53:35 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\plugin.php on line 1941
+[09-Mar-2024 10:53:35 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\menu-header.php on line 155
+[09-Mar-2024 10:53:35 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\menu-header.php on line 156
+[09-Mar-2024 10:53:35 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\menu-header.php on line 164
+[09-Mar-2024 10:53:35 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\menu-header.php on line 171
+[09-Mar-2024 10:53:35 UTC] PHP Warning:  Undefined array key 1 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\menu-header.php on line 202
+[09-Mar-2024 10:53:35 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\plugin.php on line 1941
+[09-Mar-2024 10:53:50 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\menu.php on line 181
+[09-Mar-2024 10:53:50 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\plugin.php on line 1941
+[09-Mar-2024 10:53:50 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\plugin.php on line 1941
+[09-Mar-2024 10:53:50 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\plugin.php on line 1941
+[09-Mar-2024 10:53:50 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\menu-header.php on line 155
+[09-Mar-2024 10:53:50 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\menu-header.php on line 156
+[09-Mar-2024 10:53:50 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\menu-header.php on line 164
+[09-Mar-2024 10:53:50 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\menu-header.php on line 171
+[09-Mar-2024 10:53:50 UTC] PHP Warning:  Undefined array key 1 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\menu-header.php on line 202
+[09-Mar-2024 10:53:50 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\plugin.php on line 1941
+[09-Mar-2024 11:07:21 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\menu.php on line 181
+[09-Mar-2024 11:07:21 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\plugin.php on line 1941
+[09-Mar-2024 11:07:21 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\plugin.php on line 1941
+[09-Mar-2024 11:07:21 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\plugin.php on line 1941
+[09-Mar-2024 11:07:21 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\menu-header.php on line 155
+[09-Mar-2024 11:07:21 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\menu-header.php on line 156
+[09-Mar-2024 11:07:21 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\menu-header.php on line 164
+[09-Mar-2024 11:07:21 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\menu-header.php on line 171
+[09-Mar-2024 11:07:21 UTC] PHP Warning:  Undefined array key 1 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\menu-header.php on line 202
+[09-Mar-2024 11:07:21 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\plugin.php on line 1941
+[09-Mar-2024 11:07:52 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\menu.php on line 181
+[09-Mar-2024 11:07:52 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\plugin.php on line 1941
+[09-Mar-2024 11:07:52 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\plugin.php on line 1941
+[09-Mar-2024 11:07:52 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\plugin.php on line 1941
+[09-Mar-2024 11:07:52 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\menu-header.php on line 155
+[09-Mar-2024 11:07:52 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\menu-header.php on line 156
+[09-Mar-2024 11:07:52 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\menu-header.php on line 164
+[09-Mar-2024 11:07:52 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\menu-header.php on line 171
+[09-Mar-2024 11:07:52 UTC] PHP Warning:  Undefined array key 1 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\menu-header.php on line 202
+[09-Mar-2024 11:07:52 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\plugin.php on line 1941
+[09-Mar-2024 11:13:22 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\menu.php on line 181
+[09-Mar-2024 11:13:22 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\plugin.php on line 1941
+[09-Mar-2024 11:13:41 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\menu.php on line 181
+[09-Mar-2024 11:13:41 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\plugin.php on line 1941
+[09-Mar-2024 11:16:03 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\menu.php on line 181
+[09-Mar-2024 11:16:03 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\plugin.php on line 1941
+[09-Mar-2024 11:17:51 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\menu.php on line 181
+[09-Mar-2024 11:17:51 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\plugin.php on line 1941
+[09-Mar-2024 15:10:41 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\menu.php on line 181
+[09-Mar-2024 15:10:41 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\plugin.php on line 1941
+[09-Mar-2024 16:10:07 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\menu.php on line 181
+[09-Mar-2024 16:10:07 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\plugin.php on line 1941
+[09-Mar-2024 16:45:21 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\plugin.php on line 1938
+[09-Mar-2024 16:45:21 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\menu.php on line 181
+[09-Mar-2024 16:45:21 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\plugin.php on line 1938
+[09-Mar-2024 16:45:24 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\menu.php on line 181
+[09-Mar-2024 16:45:24 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\plugin.php on line 1941
+[09-Mar-2024 16:45:39 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\menu.php on line 181
+[09-Mar-2024 16:45:39 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\plugin.php on line 1941
+[10-Mar-2024 09:41:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_theme_fileuri() in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-content\themes\hourharvest-theme\front-page.php:34
+Stack trace:
+#0 C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-blog-header.php(19): require_once('C:\\Users\\vijay\\...')
+#2 C:\Users\vijay\Local Sites\hour-harvest\app\public\index.php(17): require('C:\\Users\\vijay\\...')
+#3 {main}
+  thrown in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-content\themes\hourharvest-theme\front-page.php on line 34
+[10-Mar-2024 10:13:23 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\menu.php on line 181
+[10-Mar-2024 10:13:23 UTC] PHP Warning:  Undefined array key 2 in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\plugin.php on line 1941
+[10-Mar-2024 11:32:48 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-content\themes\hourharvest-theme\functions.php on line 58
+[10-Mar-2024 11:32:48 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-content\themes\hourharvest-theme\functions.php on line 58
+[10-Mar-2024 11:32:53 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-content\themes\hourharvest-theme\functions.php on line 58
+[10-Mar-2024 11:32:53 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-content\themes\hourharvest-theme\functions.php on line 58
+[10-Mar-2024 11:32:59 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-content\themes\hourharvest-theme\functions.php on line 58
+[10-Mar-2024 11:32:59 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 367
+[10-Mar-2024 11:32:59 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 368
+[10-Mar-2024 11:33:59 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-content\themes\hourharvest-theme\functions.php on line 58
+[10-Mar-2024 11:34:59 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-content\themes\hourharvest-theme\functions.php on line 58
+[10-Mar-2024 11:35:59 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-content\themes\hourharvest-theme\functions.php on line 58
+[10-Mar-2024 11:36:11 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-content\themes\hourharvest-theme\functions.php on line 58
+[10-Mar-2024 11:36:11 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-content\themes\hourharvest-theme\functions.php on line 58
+[10-Mar-2024 11:36:11 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-content\themes\hourharvest-theme\functions.php on line 58
+[10-Mar-2024 11:40:27 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[10-Mar-2024 11:44:13 UTC] PHP Parse error:  syntax error, unexpected token "<" in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-content\themes\hourharvest-theme\company-page-template.php on line 53
+[10-Mar-2024 11:45:15 UTC] PHP Parse error:  Unmatched '}' in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-content\themes\hourharvest-theme\company-page-template.php on line 94
+[10-Mar-2024 12:40:40 UTC] PHP Fatal error:  Cannot redeclare ourInit() (previously declared in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-content\plugins\pets-custom-post-type\pets-custom-post-type.php:15) in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-content\plugins\company-custom-post-type\company-custom-post-type.php on line 15
+[10-Mar-2024 12:40:49 UTC] PHP Fatal error:  Cannot redeclare ourInit() (previously declared in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-content\plugins\pets-custom-post-type\pets-custom-post-type.php:15) in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-content\plugins\company-custom-post-type\company-custom-post-type.php on line 15
+[10-Mar-2024 12:41:17 UTC] PHP Fatal error:  Cannot redeclare ourInit() (previously declared in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-content\plugins\pets-custom-post-type\pets-custom-post-type.php:15) in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-content\plugins\company-custom-post-type\company-custom-post-type.php on line 15
+[10-Mar-2024 12:52:07 UTC] PHP Fatal error:  Cannot redeclare ourInit() (previously declared in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-content\plugins\pets-custom-post-type\pets-custom-post-type.php:15) in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-content\plugins\company-custom-post-type\company-custom-post-type.php on line 15
+[10-Mar-2024 12:52:14 UTC] PHP Fatal error:  Cannot redeclare ourInit() (previously declared in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-content\plugins\pets-custom-post-type\pets-custom-post-type.php:15) in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-content\plugins\company-custom-post-type\company-custom-post-type.php on line 15
+[10-Mar-2024 12:56:02 UTC] PHP Fatal error:  Cannot redeclare ourInit() (previously declared in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-content\plugins\pets-custom-post-type\pets-custom-post-type.php:15) in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-content\plugins\company-custom-post-type\company-custom-post-type.php on line 15
+[10-Mar-2024 14:33:05 UTC] PHP Warning:  require_once(C:\Users\vijay\Local Sites\hour-harvest\app\public/wp-admin/inlcudes/upgrade.php): Failed to open stream: No such file or directory in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-content\plugins\new-database-table\new-database-table.php on line 26
+[10-Mar-2024 14:33:05 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\vijay\Local Sites\hour-harvest\app\public/wp-admin/inlcudes/upgrade.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-content\plugins\new-database-table\new-database-table.php:26
+Stack trace:
+#0 C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-includes\class-wp-hook.php(324): PetAdoptionTablePlugin->onActivate(false)
+#1 C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\plugin.php(693): do_action('activate_new-da...', false)
+#4 C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\plugins.php(58): activate_plugin('new-database-ta...', 'http://hourharv...', false)
+#5 {main}
+  thrown in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-content\plugins\new-database-table\new-database-table.php on line 26
+[10-Mar-2024 14:33:13 UTC] PHP Warning:  require_once(C:\Users\vijay\Local Sites\hour-harvest\app\public/wp-admin/inlcudes/upgrade.php): Failed to open stream: No such file or directory in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-content\plugins\new-database-table\new-database-table.php on line 26
+[10-Mar-2024 14:33:13 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\vijay\Local Sites\hour-harvest\app\public/wp-admin/inlcudes/upgrade.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-content\plugins\new-database-table\new-database-table.php:26
+Stack trace:
+#0 C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-includes\class-wp-hook.php(324): PetAdoptionTablePlugin->onActivate(false)
+#1 C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\includes\plugin.php(693): do_action('activate_new-da...', false)
+#4 C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-admin\plugins.php(58): activate_plugin('new-database-ta...', 'http://hourharv...', false)
+#5 {main}
+  thrown in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-content\plugins\new-database-table\new-database-table.php on line 26
+[10-Mar-2024 15:29:37 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[10-Mar-2024 16:13:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function current_user_carn() in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-content\plugins\new-database-table\inc\template-pets.php:42
+Stack trace:
+#0 C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-blog-header.php(19): require_once('C:\\Users\\vijay\\...')
+#2 C:\Users\vijay\Local Sites\hour-harvest\app\public\index.php(17): require('C:\\Users\\vijay\\...')
+#3 {main}
+  thrown in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-content\plugins\new-database-table\inc\template-pets.php on line 42
+[12-Mar-2024 06:36:07 UTC] WordPress database error Unknown column 'employee_id' in 'field list' for query INSERT INTO wp_employee_master (`employee_id`, `employee_name`, `date_of_join`, `designation`, `ssn`, `phone_cell`, `phone_home`, `work_authorization`, `hourly_rate`, `employment_type`) VALUES ('7214', 'Steven', '2020-09-04', 'Marketing Specialist', '308376755', '1-225-629-4981', '1-830-720-9500', 'H1B', 26, 'Full Time'), ('5619', 'David', '2023-05-09', 'Marketing Specialist', '747301511', '1-230-787-1166', '1-426-677-5896', 'H1B', 29, 'Part Time'), ('6533', 'Steven', '2021-12-23', 'Data Analyst', '173563298', '1-753-204-8155', '1-265-579-4855', 'EAD', 20, 'Full Time'), ('5441', 'Linda', '2014-05-18', 'HR Manager', '757397533', '1-772-900-3563', '1-617-784-1792', 'Green Card', 15, 'Part Time'), ('5552', 'Steven', '2019-04-09', 'Sales Representative', '523414833', '1-949-142-1869', '1-807-415-6870', 'Citizen', 21, 'Full Time'), ('5222', 'Karen', '2022-12-12', 'Financial Analyst', '141565624', '1-767-731-6714', '1-667-377-7359', 'Green Card', 21, 'Full Time'), ('8531', 'John', '2015-04-20', 'Data Analyst', '844205174', '1-752-777-2084', '1-386-540-1845', 'EAD', 17, 'Full Time'), ('4524', 'William', '2024-01-14', 'Accountant', '856344127', '1-722-368-4705', '1-230-705-7953', 'EAD', 30, 'Full Time'), ('4808', 'Joseph', '2021-05-31', 'Marketing Specialist', '366584604', '1-630-386-8341', '1-634-858-6646', 'EAD', 27, 'Part Time'), ('4310', 'Mark', '2022-02-03', 'Data Analyst', '729496482', '1-739-463-8367', '1-673-911-7612', 'EAD', 33, 'Full Time') made by require_once('wp-admin/admin-header.php'), do_action('admin_head'), WP_Hook->do_action, WP_Hook->apply_filters, EmployeeTablePlugin->populateFast
+[12-Mar-2024 06:42:59 UTC] WordPress database error Table 'local.wp_employee_master' doesn't exist for query SELECT * FROM wp_employee_master LIMIT 10 made by require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('/plugins/new-employee-table-main/inc/template-employee.php'), GetEmployees->__construct
+[12-Mar-2024 06:43:01 UTC] WordPress database error Table 'local.wp_employee_master' doesn't exist for query SELECT * FROM wp_employee_master LIMIT 10 made by require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('/plugins/new-employee-table-main/inc/template-employee.php'), GetEmployees->__construct
+[12-Mar-2024 06:43:02 UTC] WordPress database error Table 'local.wp_employee_master' doesn't exist for query SELECT * FROM wp_employee_master LIMIT 10 made by require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('/plugins/new-employee-table-main/inc/template-employee.php'), GetEmployees->__construct
+[12-Mar-2024 06:43:02 UTC] WordPress database error Table 'local.wp_employee_master' doesn't exist for query SELECT * FROM wp_employee_master LIMIT 10 made by require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('/plugins/new-employee-table-main/inc/template-employee.php'), GetEmployees->__construct
+[12-Mar-2024 06:43:03 UTC] WordPress database error Table 'local.wp_employee_master' doesn't exist for query SELECT * FROM wp_employee_master LIMIT 10 made by require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('/plugins/new-employee-table-main/inc/template-employee.php'), GetEmployees->__construct
+[12-Mar-2024 06:43:03 UTC] WordPress database error Table 'local.wp_employee_master' doesn't exist for query SELECT * FROM wp_employee_master LIMIT 10 made by require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('/plugins/new-employee-table-main/inc/template-employee.php'), GetEmployees->__construct
+[12-Mar-2024 06:43:03 UTC] WordPress database error Table 'local.wp_employee_master' doesn't exist for query SELECT * FROM wp_employee_master LIMIT 10 made by require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('/plugins/new-employee-table-main/inc/template-employee.php'), GetEmployees->__construct
+[12-Mar-2024 06:43:04 UTC] WordPress database error Table 'local.wp_employee_master' doesn't exist for query SELECT * FROM wp_employee_master LIMIT 10 made by require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('/plugins/new-employee-table-main/inc/template-employee.php'), GetEmployees->__construct
+[12-Mar-2024 06:43:04 UTC] WordPress database error Table 'local.wp_employee_master' doesn't exist for query SELECT * FROM wp_employee_master LIMIT 10 made by require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('/plugins/new-employee-table-main/inc/template-employee.php'), GetEmployees->__construct
+[12-Mar-2024 06:46:40 UTC] WordPress database error Table 'local.wp_employee_master' doesn't exist for query SELECT * FROM wp_employee_master LIMIT 10 made by require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('/plugins/new-employee-table-main/inc/template-employee.php'), GetEmployees->__construct
+[12-Mar-2024 14:25:04 UTC] WordPress database error Table 'local.wp_employee_master' doesn't exist for query SELECT * FROM wp_employee_master LIMIT 10 made by require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('/plugins/new-employee-table/inc/template-employee.php'), GetEmployees->__construct
+[12-Mar-2024 14:25:07 UTC] WordPress database error Table 'local.wp_employee_master' doesn't exist for query SELECT * FROM wp_employee_master LIMIT 10 made by require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('/plugins/new-employee-table/inc/template-employee.php'), GetEmployees->__construct
+[12-Mar-2024 14:26:07 UTC] WordPress database error Table 'local.wp_employee_master' doesn't exist for query SELECT * FROM wp_employee_master LIMIT 10 made by require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('/plugins/new-employee-table/inc/template-employee.php'), GetEmployees->__construct
+[12-Mar-2024 14:26:10 UTC] WordPress database error Table 'local.wp_employee_master' doesn't exist for query SELECT * FROM wp_employee_master LIMIT 10 made by require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('/plugins/new-employee-table/inc/template-employee.php'), GetEmployees->__construct
+[12-Mar-2024 14:27:13 UTC] WordPress database error Table 'local.wp_employee_master' doesn't exist for query SELECT * FROM wp_employee_master LIMIT 10 made by require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('/plugins/new-employee-table/inc/template-employee.php'), GetEmployees->__construct
+[12-Mar-2024 14:27:15 UTC] WordPress database error Table 'local.wp_employees_master' doesn't exist for query INSERT INTO wp_employees_master (`employee_id`, `employee_name`, `date_of_join`, `designation`, `ssn`, `phone_cell`, `phone_home`, `work_authorization`, `hourly_rate`, `employment_type`) VALUES ('1873', 'Mark', '2024-01-17', 'HR Manager', '210862835', '1-828-563-6871', '1-500-299-9545', 'H1B', 27, 'Part Time'), ('3098', 'William', '2022-08-15', 'Customer Service Representative', '420161910', '1-379-817-1722', '1-569-561-6012', 'Citizen', 22, 'Part Time'), ('5052', 'David', '2019-09-20', 'Software Engineer', '313297863', '1-674-338-8294', '1-696-859-9620', 'Citizen', 34, 'Part Time'), ('5626', 'Michael', '2021-06-28', 'Customer Service Representative', '555980920', '1-433-764-1943', '1-723-193-1940', 'Green Card', 24, 'Part Time'), ('2926', 'Mark', '2016-12-26', 'Data Analyst', '129429411', '1-732-642-8467', '1-409-847-3576', 'EAD', 35, 'Part Time'), ('5227', 'Susan', '2014-09-19', 'Operations Manager', '987061659', '1-495-894-6685', '1-529-860-1105', 'EAD', 43, 'Full Time'), ('8052', 'Joseph', '2023-08-26', 'HR Manager', '183229162', '1-881-335-3918', '1-560-345-8820', 'EAD', 43, 'Part Time'), ('1267', 'Karen', '2020-07-04', 'Sales Representative', '775539073', '1-346-868-2255', '1-955-516-5930', 'H1B', 20, 'Part Time'), ('7060', 'Linda', '2014-08-31', 'Customer Service Representative', '490170115', '1-585-146-7003', '1-475-752-7920', 'Green Card', 43, 'Part Time'), ('3986', 'Robert', '2015-07-19', 'Operations Manager', '578835184', '1-864-937-1302', '1-255-223-6165', 'EAD', 30, 'Part Time') made by require_once('wp-admin/admin-header.php'), do_action('admin_head'), WP_Hook->do_action, WP_Hook->apply_filters, EmployeeTablePlugin->populateFast
+[12-Mar-2024 14:27:18 UTC] WordPress database error Table 'local.wp_employees_master' doesn't exist for query INSERT INTO wp_employees_master (`employee_id`, `employee_name`, `date_of_join`, `designation`, `ssn`, `phone_cell`, `phone_home`, `work_authorization`, `hourly_rate`, `employment_type`) VALUES ('8008', 'Margaret', '2017-08-12', 'Project Manager', '530589185', '1-356-688-3502', '1-581-145-9845', 'Green Card', 16, 'Full Time'), ('7030', 'Emily', '2016-10-03', 'Software Engineer', '882577815', '1-578-948-6426', '1-924-687-3583', 'Citizen', 41, 'Part Time'), ('6900', 'Robert', '2022-04-16', 'Marketing Specialist', '881388473', '1-961-536-5733', '1-204-753-7740', 'H1B', 47, 'Full Time'), ('2106', 'Mark', '2016-08-23', 'Project Manager', '305746171', '1-262-323-9742', '1-824-353-5783', 'H1B', 48, 'Part Time'), ('9451', 'Jessica', '2020-06-25', 'Customer Service Representative', '229597607', '1-581-484-3468', '1-373-815-9305', 'H1B', 47, 'Part Time'), ('7768', 'Robert', '2017-11-23', 'Customer Service Representative', '194509454', '1-967-108-8998', '1-533-681-3952', 'Green Card', 32, 'Part Time'), ('6672', 'William', '2020-08-16', 'Software Engineer', '861510534', '1-423-766-5518', '1-919-228-3115', 'H1B', 30, 'Part Time'), ('7880', 'Daniel', '2022-11-02', 'HR Manager', '226059359', '1-454-870-3441', '1-458-570-9355', 'H1B', 24, 'Part Time'), ('9803', 'Nancy', '2015-03-20', 'Accountant', '812217485', '1-613-243-5727', '1-800-972-9759', 'H1B', 15, 'Part Time'), ('2337', 'Jessica', '2015-01-16', 'Data Analyst', '428338871', '1-807-456-4178', '1-717-787-8695', 'EAD', 40, 'Full Time') made by require_once('wp-admin/admin-header.php'), do_action('admin_head'), WP_Hook->do_action, WP_Hook->apply_filters, EmployeeTablePlugin->populateFast
+[12-Mar-2024 14:57:35 UTC] WordPress database error Unknown column 'employeename' in 'field list' for query INSERT INTO `wp_employee_master` (`employee_id`, `employee_name`, `date_of_join`, `designation`, `ssn`, `phone_cell`, `phone_home`, `work_authorization`, `hourly_rate`, `employment_type`, `employeename`) VALUES ('6504', 'Daniel', '2016-07-21', 'Sales Representative', '295360329', '1-950-342-6187', '1-982-563-3653', 'H1B', '31', 'Part Time', 'sudu') made by do_action('admin_post_createemployee'), WP_Hook->do_action, WP_Hook->apply_filters, EmployeeTablePlugin->createEmployee
+[12-Mar-2024 15:05:36 UTC] WordPress database error Unknown column 'employeename' in 'field list' for query INSERT INTO `wp_employee_master` (`employee_id`, `employee_name`, `date_of_join`, `designation`, `ssn`, `phone_cell`, `phone_home`, `work_authorization`, `hourly_rate`, `employment_type`, `employeename`) VALUES ('4526', 'James', '2021-11-19', 'Project Manager', '492300867', '1-572-989-4281', '1-583-771-2286', 'H1B', '39', 'Part Time', 'John') made by do_action('admin_post_createemployee'), WP_Hook->do_action, WP_Hook->apply_filters, EmployeeTablePlugin->createEmployee
+[12-Mar-2024 15:06:39 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting "function" or "const" in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-content\plugins\new-employee-table\new-employee-table.php on line 27
+[12-Mar-2024 15:06:39 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting "function" or "const" in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-content\plugins\new-employee-table\new-employee-table.php on line 27
+[12-Mar-2024 15:08:08 UTC] WordPress database error Unknown column 'employeename' in 'field list' for query INSERT INTO `wp_employee_master` (`employee_id`, `employee_name`, `date_of_join`, `designation`, `ssn`, `phone_cell`, `phone_home`, `work_authorization`, `hourly_rate`, `employment_type`, `employeename`) VALUES ('2091', 'Sarah', '2018-10-25', 'Sales Representative', '673210771', '1-873-637-2958', '1-849-998-6418', 'Green Card', '49', 'Full Time', 'William') made by do_action('admin_post_createemployee'), WP_Hook->do_action, WP_Hook->apply_filters, EmployeeTablePlugin->createEmployee
+[12-Mar-2024 15:22:33 UTC] WordPress database error Unknown column 'action' in 'field list' for query INSERT INTO `wp_employee_master` (`action`, `employeename`, `dateofjoin`, `designation`, `ssn`, `phonecell`, `phonehome`, `workauthorization`, `hourlyrate`, `employmenttype`) VALUES ('createemployee', 'sudu', '2024-03-12', 'manager', '5342432434', '24243243243', '4345335433erwer', 'Green Card', '20', 'Part Time') made by do_action('admin_post_createemployee'), WP_Hook->do_action, WP_Hook->apply_filters, EmployeeTablePlugin->createEmployee
+[12-Mar-2024 15:25:20 UTC] WordPress database error Unknown column 'action' in 'field list' for query INSERT INTO `wp_employee_master` (`action`, `employeename`, `dateofjoin`, `designation`, `ssn`, `phonecell`, `phonehome`, `workauthorization`, `hourlyrate`, `employmenttype`) VALUES ('createemployee', '23423214', '2024-03-13', 'r33', '432432', '443334wewe', 'wqeqewq', 'EAD', '15', 'Part Time') made by do_action('admin_post_createemployee'), WP_Hook->do_action, WP_Hook->apply_filters, EmployeeTablePlugin->createEmployee
+[12-Mar-2024 15:32:42 UTC] WordPress database error Unknown column 'employe_ename' in 'field list' for query INSERT INTO `wp_employee_master` (`employee_id`, `employee_name`, `date_of_join`, `designation`, `ssn`, `phone_cell`, `phone_home`, `work_authorization`, `hourly_rate`, `employment_type`, `employe_ename`) VALUES ('3843', 'Karen', '2014-07-14', 'Financial Analyst', '397934447', '1-693-562-6733', '1-981-642-9344', 'Green Card', '44', 'Part Time', 'Joseph') made by do_action('admin_post_createemployee'), WP_Hook->do_action, WP_Hook->apply_filters, EmployeeTablePlugin->createEmployee
+[12-Mar-2024 15:33:45 UTC] WordPress database error Unknown column 'employe_ename' in 'field list' for query INSERT INTO `wp_employee_master` (`employee_id`, `employee_name`, `date_of_join`, `designation`, `ssn`, `phone_cell`, `phone_home`, `work_authorization`, `hourly_rate`, `employment_type`, `employe_ename`) VALUES ('4231', 'Michael', '2020-11-11', 'Sales Representative', '792317027', '1-826-859-1412', '1-644-578-4941', 'Green Card', '38', 'Full Time', 'William') made by do_action('admin_post_createemployee'), WP_Hook->do_action, WP_Hook->apply_filters, EmployeeTablePlugin->createEmployee
+[12-Mar-2024 15:34:15 UTC] WordPress database error Unknown column 'employe_ename' in 'field list' for query INSERT INTO `wp_employee_master` (`employee_id`, `employee_name`, `date_of_join`, `designation`, `ssn`, `phone_cell`, `phone_home`, `work_authorization`, `hourly_rate`, `employment_type`, `employe_ename`) VALUES ('8242', 'Emily', '2019-01-02', 'Customer Service Representative', '579353359', '1-991-195-7799', '1-343-934-5141', 'Green Card', '47', 'Full Time', 'Lindaa') made by do_action('admin_post_createemployee'), WP_Hook->do_action, WP_Hook->apply_filters, EmployeeTablePlugin->createEmployee
+[12-Mar-2024 15:36:42 UTC] WordPress database error Unknown column 'employe_ename' in 'field list' for query INSERT INTO `wp_employee_master` (`employee_id`, `employee_name`, `date_of_join`, `designation`, `ssn`, `phone_cell`, `phone_home`, `work_authorization`, `hourly_rate`, `employment_type`, `employe_ename`) VALUES ('9931', 'Jennifer', '2015-03-30', 'Marketing Specialist', '337745786', '1-463-610-5115', '1-347-875-7163', 'Citizen', '27', 'Full Time', 'Linda') made by do_action('admin_post_createemployee'), WP_Hook->do_action, WP_Hook->apply_filters, EmployeeTablePlugin->createEmployee
+[12-Mar-2024 15:55:24 UTC] PHP Warning:  Undefined array key "employee_name" in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-content\plugins\new-employee-table\new-employee-table.php on line 46
+[12-Mar-2024 15:56:42 UTC] PHP Warning:  Undefined array key "employee_name" in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-content\plugins\new-employee-table\new-employee-table.php on line 46

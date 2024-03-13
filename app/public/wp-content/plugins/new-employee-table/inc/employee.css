@@ -1,0 +1,70 @@
+/* Styles for the form */
+.create-employee-form {
+    margin-top: 30px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 30px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .create-employee-form h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .create-employee-form .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .create-employee-form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .create-employee-form input[type="text"],
+  .create-employee-form input[type="number"],
+  .create-employee-form input[type="tel"],
+  .create-employee-form select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .create-employee-form select {
+    height: 40px;
+  }
+  
+  .create-employee-form button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .create-employee-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Responsive styles */
+  @media screen and (max-width: 767px) {
+    .create-employee-form {
+      padding: 20px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .create-employee-form {
+      padding: 15px;
+    }
+  }
+  
