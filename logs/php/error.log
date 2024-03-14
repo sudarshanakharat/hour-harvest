@@ -480,3 +480,43 @@ Stack trace:
 [12-Mar-2024 15:36:42 UTC] WordPress database error Unknown column 'employe_ename' in 'field list' for query INSERT INTO `wp_employee_master` (`employee_id`, `employee_name`, `date_of_join`, `designation`, `ssn`, `phone_cell`, `phone_home`, `work_authorization`, `hourly_rate`, `employment_type`, `employe_ename`) VALUES ('9931', 'Jennifer', '2015-03-30', 'Marketing Specialist', '337745786', '1-463-610-5115', '1-347-875-7163', 'Citizen', '27', 'Full Time', 'Linda') made by do_action('admin_post_createemployee'), WP_Hook->do_action, WP_Hook->apply_filters, EmployeeTablePlugin->createEmployee
 [12-Mar-2024 15:55:24 UTC] PHP Warning:  Undefined array key "employee_name" in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-content\plugins\new-employee-table\new-employee-table.php on line 46
 [12-Mar-2024 15:56:42 UTC] PHP Warning:  Undefined array key "employee_name" in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-content\plugins\new-employee-table\new-employee-table.php on line 46
+[13-Mar-2024 02:00:46 UTC] PHP Warning:  require_once(C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-content\plugins\new-employee-table\inc\GetEmployees.php): Failed to open stream: No such file or directory in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-content\plugins\new-employee-table\inc\template-employee.php on line 3
+[13-Mar-2024 02:00:46 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-content\plugins\new-employee-table\inc\GetEmployees.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-content\plugins\new-employee-table\inc\template-employee.php:3
+Stack trace:
+#0 C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-blog-header.php(19): require_once('C:\\Users\\vijay\\...')
+#2 C:\Users\vijay\Local Sites\hour-harvest\app\public\index.php(17): require('C:\\Users\\vijay\\...')
+#3 {main}
+  thrown in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-content\plugins\new-employee-table\inc\template-employee.php on line 3
+[13-Mar-2024 02:36:02 UTC] PHP Warning:  require_once(C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-content\plugins\new-employee-table\inc/GetEmployees.php): Failed to open stream: No such file or directory in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-content\plugins\new-employee-table\inc\template-employee.php on line 3
+[13-Mar-2024 02:36:02 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-content\plugins\new-employee-table\inc/GetEmployees.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-content\plugins\new-employee-table\inc\template-employee.php:3
+Stack trace:
+#0 C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-blog-header.php(19): require_once('C:\\Users\\vijay\\...')
+#2 C:\Users\vijay\Local Sites\hour-harvest\app\public\index.php(17): require('C:\\Users\\vijay\\...')
+#3 {main}
+  thrown in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-content\plugins\new-employee-table\inc\template-employee.php on line 3
+[13-Mar-2024 02:36:03 UTC] PHP Warning:  require_once(C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-content\plugins\new-employee-table\inc/GetEmployees.php): Failed to open stream: No such file or directory in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-content\plugins\new-employee-table\inc\template-employee.php on line 3
+[13-Mar-2024 02:36:03 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-content\plugins\new-employee-table\inc/GetEmployees.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-content\plugins\new-employee-table\inc\template-employee.php:3
+Stack trace:
+#0 C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-blog-header.php(19): require_once('C:\\Users\\vijay\\...')
+#2 C:\Users\vijay\Local Sites\hour-harvest\app\public\index.php(17): require('C:\\Users\\vijay\\...')
+#3 {main}
+  thrown in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-content\plugins\new-employee-table\inc\template-employee.php on line 3
+[14-Mar-2024 02:04:20 UTC] PHP Warning:  require_once(C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-content\plugins\new-company-table\inc/GetCompanys.php): Failed to open stream: No such file or directory in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-content\plugins\new-company-table\inc\template-company.php on line 3
+[14-Mar-2024 02:04:20 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-content\plugins\new-company-table\inc/GetCompanys.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-content\plugins\new-company-table\inc\template-company.php:3
+Stack trace:
+#0 C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-blog-header.php(19): require_once('C:\\Users\\vijay\\...')
+#2 C:\Users\vijay\Local Sites\hour-harvest\app\public\index.php(17): require('C:\\Users\\vijay\\...')
+#3 {main}
+  thrown in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-content\plugins\new-company-table\inc\template-company.php on line 3
+[14-Mar-2024 02:05:12 UTC] PHP Fatal error:  Uncaught Error: Class "GetCompanys" not found in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-content\plugins\new-company-table\inc\template-company.php:4
+Stack trace:
+#0 C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-blog-header.php(19): require_once('C:\\Users\\vijay\\...')
+#2 C:\Users\vijay\Local Sites\hour-harvest\app\public\index.php(17): require('C:\\Users\\vijay\\...')
+#3 {main}
+  thrown in C:\Users\vijay\Local Sites\hour-harvest\app\public\wp-content\plugins\new-company-table\inc\template-company.php on line 4
+[14-Mar-2024 02:05:21 UTC] WordPress database error Table 'local.wp_company_master' doesn't exist for query SELECT * FROM wp_company_master LIMIT 10 made by require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('/plugins/new-company-table/inc/template-company.php'), GetCompany->__construct
