@@ -1,18 +1,18 @@
 /* Styles for the form */
 .create-employee-form {
-    margin-top: 30px;
+    margin-top: 5px;
     background-color: #f9f9f9;
     border: 1px solid #ddd;
     border-radius: 5px;
     padding: 30px;
-    max-width: 600px;
+    max-width: 800px;
     margin-left: auto;
     margin-right: auto;
   }
   
   .create-employee-form h2 {
     font-size: 24px;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
   }
   
   .create-employee-form .form-group {

@@ -1,34 +1,34 @@
 /* Styles for the form */
-.create-Company-form {
-    margin-top: 30px;
+.create-company-form {
+    margin-top: 5px;
     background-color: #f9f9f9;
     border: 1px solid #ddd;
     border-radius: 5px;
     padding: 30px;
-    max-width: 600px;
+    max-width: 800px;
     margin-left: auto;
     margin-right: auto;
   }
   
-  .create-Company-form h2 {
+  .create-company-form h2 {
     font-size: 24px;
+    margin-bottom: 5px;
+  }
+  
+  .create-company-form .form-group {
     margin-bottom: 20px;
   }
   
-  .create-Company-form .form-group {
-    margin-bottom: 20px;
-  }
-  
-  .create-Company-form label {
+  .create-company-form label {
     display: block;
     font-weight: bold;
     margin-bottom: 5px;
   }
   
-  .create-Company-form input[type="text"],
-  .create-Company-form input[type="number"],
-  .create-Company-form input[type="tel"],
-  .create-Company-form select {
+  .create-company-form input[type="text"],
+  .create-company-form input[type="number"],
+  .create-company-form input[type="tel"],
+  .create-company-form select {
     width: 100%;
     padding: 10px;
     border: 1px solid #ccc;
@@ -36,11 +36,11 @@
     font-size: 16px;
   }
   
-  .create-Company-form select {
+  .create-company-form select {
     height: 40px;
   }
   
-  .create-Company-form button {
+  .create-company-form button {
     background-color: #007bff;
     color: #fff;
     border: none;
@@ -51,19 +51,19 @@
     transition: background-color 0.3s ease;
   }
   
-  .create-Company-form button:hover {
+  .create-company-form button:hover {
     background-color: #0056b3;
   }
   
   /* Responsive styles */
   @media screen and (max-width: 767px) {
-    .create-Company-form {
+    .create-company-form {
       padding: 20px;
     }
   }
   
   @media screen and (max-width: 480px) {
-    .create-Company-form {
+    .create-company-form {
       padding: 15px;
     }
   }

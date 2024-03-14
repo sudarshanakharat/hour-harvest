@@ -14,11 +14,11 @@ class CompanyTablePlugin {
   function __construct() {
     global $wpdb;
     $this->charset = $wpdb->get_charset_collate();
-    $this->tablename = $wpdb->prefix . 'Company_master';
+    $this->tablename = $wpdb->prefix . 'company_master';
 
     add_action('activate_new-company-table/new-company-table.php', array($this, 'onActivate'));
-    add_action('admin_post_createCompany', array($this, 'createCompany'));
-    add_action('admin_post_nopriv_createCompany', array($this, 'createCompany'));
+    add_action('admin_post_createcompany', array($this, 'createCompany'));
+    add_action('admin_post_nopriv_createcompany', array($this, 'createCompany'));
     //add_action('admin_head', array($this, 'populateFast'));
     add_action('wp_enqueue_scripts', array($this, 'loadAssets'));
     add_filter('template_include', array($this, 'loadTemplate'), 99);
@@ -112,16 +112,16 @@ function onActivate() {
   }
 
   function populateFast() {
-    $query = "INSERT INTO $this->tablename (`company_id`, `company_name`, `date_of_join`, `designation`, `ssn`, `phone_cell`, `phone_home`, `work_authorization`, `hourly_rate`, `employment_type`) VALUES ";
-    $numberofCompanys = 10;
-    for ($i = 0; $i < $numberofCompanys; $i++) {
-      $Company = generateCompany();
-      $query .= "('{$Company['company_id']}', '{$Company['company_name']}', '{$Company['date_of_join']}', '{$Company['designation']}', '{$Company['ssn']}', '{$Company['phone_cell']}', '{$Company['phone_home']}', '{$Company['work_authorization']}', {$Company['hourly_rate']}, '{$Company['employment_type']}')";
-      if ($i != $numberofCompanys - 1) {
-        $query .= ", ";
-      }
+    $query = "INSERT INTO $this->tablename (`company_id`, `company_name`, `address_line1`, `address_line2`, `city`, `zip`, `state`, `company_type`, `date_of_formation`, `email_address`, `phone_number`) VALUES ";
+    $numberofCompanies = 10;
+    for ($i = 0; $i < $numberofCompanies; $i++) {
+        $company = generateCompany();
+        $query .= "('{$company['company_id']}', '{$company['company_name']}', '{$company['address_line1']}', '{$company['address_line2']}', '{$company['city']}', '{$company['zip']}', '{$company['state']}', '{$company['company_type']}', '{$company['date_of_formation']}', '{$company['email_address']}', '{$company['phone_number']}')";
+        if ($i != $numberofCompanies - 1) {
+            $query .= ", ";
+        }
     }
-
+   
 /*
     Never use query directly like this without using $wpdb->prepare in the
     real world. I'm only using it this way here because the values I'm 

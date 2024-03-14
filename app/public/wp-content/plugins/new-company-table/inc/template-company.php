@@ -19,12 +19,12 @@ get_header(); ?>
 
 <?php
 if (current_user_can('administrator')) { ?>
-    <form action="<?php echo esc_url(admin_url('admin-post.php')) ?>" class="create-Company-form" method="POST">
+    <form action="<?php echo esc_url(admin_url('admin-post.php')) ?>" class="create-company-form" method="POST">
     <h2>Enter Details of New Company</h2>
         <input type="hidden" name="action" value="createCompany">
     <div class="form-group">
-            <label for="Company_name">Name:</label>
-            <input type="text" id="Company_name" name="Company_name" placeholder="Enter Company name...">
+            <label for="company_name">Name:</label>
+            <input type="text" id="company_name" name="company_name" placeholder="Enter Company name...">
         </div>
         <div class="form-group">
             <label for="date_of_join">Date of Joining:</label>
@@ -67,7 +67,7 @@ if (current_user_can('administrator')) { ?>
                 <option value="contract">Contract</option>
             </select>
         </div>
-        <button type="submit" id="add_Company_button">Add Company</button>
+        <button type="submit" id="add_company_button">Add Company</button>
 
     </form>
 <?php }

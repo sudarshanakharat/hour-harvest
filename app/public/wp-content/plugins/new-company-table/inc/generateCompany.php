@@ -40,17 +40,16 @@ function generateCompany() {
   $phoneNumber = "1-" . rand(200, 999) . "-" . rand(100, 999) . "-" . rand(1000, 9999); // Example phone number
 
   return array(
-    'Company_ID' => $companyId,
-    'Company_Name' => $companyName,
-    'Address_Line1' => $addressLine1,
-    'Address_Line2' => $addressLine2,
-    'City' => $city,
-    'Zip' => $zip,
-    'State' => $state,
-    'Company_Type' => $companyType,
-    'Date_of_Formation' => $dateOfFormation,
-    'Email_Address' => $emailAddress,
-    'Phone_Number' => $phoneNumber
+    'company_id' => $companyId,
+    'company_name' => $companyName,
+    'address_line1' => $addressLine1,
+    'address_line2' => $addressLine2,
+    'city' => $city,
+    'zip' => $zip,
+    'state' => $state,
+    'company_type' => $companyType,
+    'date_of_formation' => $dateOfFormation,
+    'email_address' => $emailAddress,
+    'phone_number' => $phoneNumber
   );
 }
-?>
