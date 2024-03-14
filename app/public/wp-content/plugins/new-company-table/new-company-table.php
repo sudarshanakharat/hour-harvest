@@ -16,7 +16,7 @@ class CompanyTablePlugin {
     $this->charset = $wpdb->get_charset_collate();
     $this->tablename = $wpdb->prefix . 'Company_master';
 
-    add_action('activate_new-Company-table/new-Company-table.php', array($this, 'onActivate'));
+    add_action('activate_new-company-table/new-company-table.php', array($this, 'onActivate'));
     add_action('admin_post_createCompany', array($this, 'createCompany'));
     add_action('admin_post_nopriv_createCompany', array($this, 'createCompany'));
     //add_action('admin_head', array($this, 'populateFast'));
@@ -59,7 +59,7 @@ class CompanyTablePlugin {
 
         if ($result) {
             // Company inserted successfully
-            wp_redirect(site_url('/Company')); // Redirect to the Company page after adding the Company
+            wp_redirect(site_url('/company')); // Redirect to the Company page after adding the Company
             exit;
         } else {
             // Handle insertion error
@@ -99,24 +99,24 @@ function onActivate() {
   }
 
   function loadAssets() {
-    if (is_page('Company')) {
-      wp_enqueue_style('Companycss', plugin_dir_url(__FILE__) . 'Company.css');
+    if (is_page('company')) {
+      wp_enqueue_style('companycss', plugin_dir_url(__FILE__) . 'company.css');
     }
   }
 
   function loadTemplate($template) {
-    if (is_page('Company')) {
-      return plugin_dir_path(__FILE__) . 'inc/template-Company.php';
+    if (is_page('company')) {
+      return plugin_dir_path(__FILE__) . 'inc/template-company.php';
     }
     return $template;
   }
 
   function populateFast() {
-    $query = "INSERT INTO $this->tablename (`Company_id`, `Company_name`, `date_of_join`, `designation`, `ssn`, `phone_cell`, `phone_home`, `work_authorization`, `hourly_rate`, `employment_type`) VALUES ";
+    $query = "INSERT INTO $this->tablename (`company_id`, `company_name`, `date_of_join`, `designation`, `ssn`, `phone_cell`, `phone_home`, `work_authorization`, `hourly_rate`, `employment_type`) VALUES ";
     $numberofCompanys = 10;
     for ($i = 0; $i < $numberofCompanys; $i++) {
       $Company = generateCompany();
-      $query .= "('{$Company['Company_id']}', '{$Company['Company_name']}', '{$Company['date_of_join']}', '{$Company['designation']}', '{$Company['ssn']}', '{$Company['phone_cell']}', '{$Company['phone_home']}', '{$Company['work_authorization']}', {$Company['hourly_rate']}, '{$Company['employment_type']}')";
+      $query .= "('{$Company['company_id']}', '{$Company['company_name']}', '{$Company['date_of_join']}', '{$Company['designation']}', '{$Company['ssn']}', '{$Company['phone_cell']}', '{$Company['phone_home']}', '{$Company['work_authorization']}', {$Company['hourly_rate']}, '{$Company['employment_type']}')";
       if ($i != $numberofCompanys - 1) {
         $query .= ", ";
       }
@@ -135,4 +135,4 @@ function onActivate() {
 
 }
 
-$CompanyPlugin = new CompanyTablePlugin();
+$companyPlugin = new CompanyTablePlugin();
